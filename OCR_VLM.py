@@ -10,8 +10,8 @@ LMSTUDIO_API = "http://localhost:1234/v1/chat/completions"
 MODEL_NAME = "llava"  # atau "bakllava"
 
 # GANTI DENGAN PATH SEBENARNYA
-IMAGE_FOLDER = r"C:\Users\mgala\OneDrive\Documents\Machine Vision\Riccy\Dataset\archive\Indonesian License Plate Recognition Dataset\images\test"
-LABEL_CSV_PATH = r"C:\Users\mgala\OneDrive\Documents\Machine Vision\Riccy\Dataset\archive\Indonesian License Plate Recognition Dataset\labels\labels.csv"
+IMAGE_FOLDER = "dataset/image"
+LABEL_CSV_PATH = "dataset/label/label.csv"
 OUTPUT_CSV = "Output_ocr.csv"
 
 def encode_image(image_path):

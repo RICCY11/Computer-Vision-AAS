@@ -34,14 +34,14 @@ Selain proses inferensi, proyek ini juga mencakup evaluasi performa model dengan
 
 ## 📂 Struktur Proyek
 
-├── dataset/
-│ ├── images/ # Gambar plat nomor
-│ └── label/labels.csv # Ground truth
-├── OCR_VLM.py # Script utama OCR
-├── Evaluasi_OCR.py # Script evaluasi CER
-├── Output_ocr.csv # Output prediksi model LLaVA
-├── Output_Gemma_ocr.csv # Output prediksi model Gemma
-├── README.md # Dokumentasi proyek
+dataset/
+images/ # Gambar plat nomor
+label/labels.csv # Ground truth
+OCR_VLM.py # Script utama OCR
+Evaluasi_OCR.py # Script evaluasi CER
+Output_ocr.csv # Output prediksi model LLaVA
+Output_Gemma_ocr.csv # Output prediksi model Gemma
+README.md # Dokumentasi proyek
 
 
 ---

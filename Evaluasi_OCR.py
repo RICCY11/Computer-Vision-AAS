@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Ganti jika file CSV hasilmu pakai nama lain atau ada di folder berbeda
-csv_path = r"C:\Users\mgala\OneDrive\Documents\Machine Vision\Riccy\Output_Gemma_ocr.csv"
+csv_path = "Output_Gemma_ocr.csvv"
 
 # Load data
 df = pd.read_csv(csv_path)

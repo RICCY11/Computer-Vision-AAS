@@ -61,6 +61,8 @@ http://localhost:1234/v1/chat/completions
 
 ### 2. Jalankan Script OCR
 python OCR_VLM.py
+Catatan!:
+Pastikan pada bagian MODEL_NAME = "llava" jika ingin menggunakan VLM llava dan ganti jadi "gemma" jika ingin menggunakan gemma
 
 Script ini akan:
 Membaca gambar dari folder images/test
@@ -72,6 +74,9 @@ Menyimpan ke CSV (Output_ocr.csv atau Output_Gemma_ocr.csv)
 ### 3. Evaluasi Hasil OCR
 python Evaluasi_OCR.py
 Script ini akan:
+Catatan!:
+Pastikan pada bagian csv_path = "Output_ocr.csv" jika ingin menggunakan hasil prediksi dari VLM llava dan ganti jadi "Output_Gemma_ocr.csv" jika ingin menggunakan hasil prediksi VLM gemma
+
 
 Membaca file hasil prediksi
 Menghitung:
